@@ -29,7 +29,7 @@ class Tentara extends CI_Controller {
         
         if ($this->input->post('tombolTambah')){
             $this->Tentara_model->tambahDataTentara();
-            redirect('tentara');
+            redirect('index.php/tentara');
             // echo 'hello';
         }
     }
@@ -37,7 +37,7 @@ class Tentara extends CI_Controller {
     public function hapus($id)
     {
         $this->Tentara_model->hapusDataTentara($id);
-        redirect('tentara');
+        redirect('index.php/tentara');
     
     }
 
