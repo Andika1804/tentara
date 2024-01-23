@@ -29,7 +29,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="<?= base_url(); ?>">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="<?= base_url(); ?>Tentara">Tentara</a>
+      <a class="nav-item nav-link" href="<?= base_url('index.php/'); ?>Tentara">Tentara</a>
       <a class="nav-item nav-link" href="#">About</a>
     </div>
   </div>

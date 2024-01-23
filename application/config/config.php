@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost/DATATENTARACI3/index.php';
-$config['base_url'] = 'http://topek.xyz//index.php';
+$config['base_url'] = 'http://topek.xyz/';
 
 /*
 |--------------------------------------------------------------------------
