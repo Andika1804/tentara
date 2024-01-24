@@ -11,7 +11,7 @@
                 <h6 class="card-subtitle mb-2 text-muted"><?= $tentara ['id_pangkat'] .' '. $tentara
                 ['pangkat']; ?></h6>
                 <p class="card-text"><?= $tentara ['id_wilayah'] .' '. $tentara['wilayah']; ?></p>
-                <a href="<?= base_url(); ?>tentara" class="btn btn-primary">
+                <a href="<?= base_url('index.php/'); ?>tentara" class="btn btn-primary">
                 kembali</a>
             </div>
             </div>
